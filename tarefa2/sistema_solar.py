@@ -39,7 +39,7 @@ import wgpu
 WIDTH, HEIGHT = 800, 800
 # Cor de fundo em espaço linear: o canvas usa um formato sRGB, então a
 # conversão para a tela clareia o valor (0.02 linear ≈ 15% de brilho na tela).
-BACKGROUND = (0.005, 0.005, 0.020, 1.0)
+BACKGROUND = (0.00, 0.00, 0.000, 1.0)
 
 # ── Dimensões da cena, em unidades de mundo ───────────────────────────────
 # Não estão em escala real (a terra seria invisível ao lado do sol); foram
@@ -60,13 +60,13 @@ MOON_ORBIT_PERIOD = 1.5    # uma volta da lua em torno da terra ("um mês")
 EARTH_SPIN_PERIOD = 2.0    # rotação da terra em torno do próprio eixo
 
 # ── Cores ─────────────────────────────────────────────────────────────────
-SUN_COLOR = (1.00, 0.80, 0.10, 1.00)
-EARTH_COLOR = (0.20, 0.45, 0.90, 1.00)
+SUN_COLOR = (1.00, 0.30, 0.10, 1.00)
+EARTH_COLOR = (0.10, 0.15, 1.00, 1.00)
 MOON_COLOR = (0.80, 0.80, 0.84, 1.00)
 ORBIT_COLOR = (1.00, 1.00, 1.00, 0.18)
 
 # Desenha as trajetórias como anéis finos (apoio visual, não exigido pela tarefa)
-SHOW_ORBITS = True
+SHOW_ORBITS = False
 
 DISK_SEGMENTS = 64    # segmentos usados para aproximar o disco por triângulos
 RING_SEGMENTS = 160
