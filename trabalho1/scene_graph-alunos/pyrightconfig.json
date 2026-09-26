@@ -1,0 +1,6 @@
+{
+  "include": ["python"],
+  "useLibraryCodeForTypes": true,
+  "reportMissingModuleSource": "none",
+  "reportMissingTypeStubs": "none"
+}
