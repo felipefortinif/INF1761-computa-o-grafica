@@ -1,0 +1,15 @@
+# OS
+.DS_Store
+
+# Python
+__pycache__/
+*.pyc
+
+# C++ build artifacts
+*.o
+C++/t2
+C++/t3
+C++/app/t_*
+
+# IDE
+.vscode/

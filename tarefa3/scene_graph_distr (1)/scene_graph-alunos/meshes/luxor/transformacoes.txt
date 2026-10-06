@@ -1,0 +1,72 @@
+Lâmpada Transformações Locais (X,Y,Z)
+
+base    -  (0,0,0)     (0,0,0)
+haste1  -  (0,4,0)     (0,4,0)
+haste2  -  (0,17.15,0) (0,21.15,0)
+haste3  -  (0,16.78,0) (0,37.93,0)
+cupula  -  (0,18.12,0) (0,56.05,0)
+lampada -  (0,8.4,9)   (0,64.45,9)
+
+
+Animação - Translação e Rotações Locais e Globais (X,Y,Z)
+
+A rotacao é especificada por um vetor cuja norma informa o ângulo em graus,
+e a direção representa o eixo de rotação.
+
+FRAME 1
+
+Translação da Base (0,0,0)
+
+base    -  (   0,0,0) (  0,0,0)
+haste1  -  ( -30,0,0) (-30,0,0)
+haste2  -  ( 120,0,0) ( 90,0,0)
+haste3  -  (-120,0,0) (-30,0,0)
+cupula  -  (  30,0,0) (  0,0,0)
+lampada -  (   0,0,0) (  0,0,0)
+
+FRAME 2
+
+Translação da Base (0,0,0)
+
+base    -  (   0,0,0) (  0,0,0)
+haste1  -  ( -40,0,0) (-40,0,0)
+haste2  -  ( 150,0,0) (110,0,0)
+haste3  -  (-145,0,0) (-35,0,0)
+cupula  -  (  60,0,0) ( 25,0,0)
+lampada -  (   0,0,0) ( 25,0,0)
+
+
+FRAME 3
+
+Translação da Base (0,30,50)
+
+base    -  (-30,0,0)  (-30,0,0)
+haste1  -  ( 10,0,0)  (-20,0,0)
+haste2  -  ( 50,0,0)  ( 30,0,0)
+haste3  -  (-50,0,0)  (-20,0,0)
+cupula  -  ( 65,0,0)  ( 45,0,0)
+lampada -  (  0,0,0)  ( 45,0,0)
+
+
+FRAME 4
+
+Translação da Base (0,0,90)
+
+base    -  (   0,0,0) (  0,0,0)
+haste1  -  ( -60,0,0) (-60,0,0)
+haste2  -  ( 160,0,0) (100,0,0)
+haste3  -  (-165,0,0) (-65,0,0)
+cupula  -  (  60,0,0) ( -5,0,0)
+lampada -  (   0,0,0) ( -5,0,0)
+
+
+FRAME 5
+
+Translação da Base (0,0,90)
+
+base    -  (   0,0,0) (  0,0,0)
+haste1  -  ( -30,0,0) (-30,0,0)
+haste2  -  ( 120,0,0) ( 90,0,0)
+haste3  -  (-120,0,0) (-30,0,0)
+cupula  -  (  30,0,0) (  0,0,0)
+lampada -  (   0,0,0) (  0,0,0)
